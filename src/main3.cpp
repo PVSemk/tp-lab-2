@@ -1,7 +1,6 @@
 #include "task3.h"
 
 #include <iostream>
-#include <cstring>
 
 
 template<class T>
