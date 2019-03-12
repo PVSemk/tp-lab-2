@@ -43,6 +43,7 @@ namespace lab2
 }
 #include <cstring>
 
+/*
 // task1
 TEST(lab2,task1_1)
 {
@@ -78,6 +79,7 @@ TEST(lab2,task1_3)
     for(size_t i = 0; i < n; i++)
 		EXPECT_EQ(expected[i], val[i]);
 }
+*/
 
 // task2
 TEST(lab2,task2_1)
