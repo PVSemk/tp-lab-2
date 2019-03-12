@@ -9,8 +9,7 @@ bool compare(T a, T b)
     return a < b;
 }
 
-template<>
-bool compare<char*>(char* a, char* b)
+bool compare(char* a, char* b)
 {
     return strlen(a) < strlen(b);
 }
@@ -45,7 +44,7 @@ void msort(T* array, size_t size)
             }
         }
 
-        else if (lidx < size / 2) // There remain values only in the left half
+        else if (lidx < size / 2) // Values remain only in the left half
         {
             tmp[tidx++] = array[lidx];
             lidx++;
