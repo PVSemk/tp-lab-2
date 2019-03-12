@@ -10,7 +10,7 @@ bool compare(T a, T b)
 }
 
 template <>
-bool compare<char*>(char* a, char* b)
+bool compare(char* a, char* b)
 {
     return strlen(a) < strlen(b);
 }
